@@ -1,0 +1,51 @@
+
+.input-container {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+}
+
+.register-container {
+    width: 40%;
+    height: auto;
+    box-shadow: 1px 1px 3px 2px lightgray;
+    padding: 20px;
+}
+
+.bg-container {
+    padding-top: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit-btn {
+    background-color: blue;
+    color: white;
+    line-height: 2.5;
+    width: 80%;
+    border: none;
+    border-radius: 5px;
+}
+
+.input {
+    margin-top: 4px;
+    height: 30px;
+}
+
+@media (min-width: 768px) {
+    .register-container {
+        width: 30%;
+        padding: 8px;
+        padding-left: 25px;
+    }
+    .bg-container {
+        padding-top: 120px;
+    }
+}
+
+.nav-link {
+    text-decoration: none;
+}
